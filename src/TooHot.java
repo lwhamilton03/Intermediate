@@ -7,10 +7,12 @@ public class TooHot {
 		{
 			return true; 
 		}
+		
 		if (temperature >= 60 && isSummer)
 		{
 			return true;
 		}
-	return false;
+		
+		return false;
 	}
 }
